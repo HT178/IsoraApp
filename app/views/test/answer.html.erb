@@ -1,0 +1,26 @@
+<header class='header__test'>
+    <p class='header__test-text'>isora wonderland</p>
+</header>
+
+<main>
+    <div class="answer-container">
+        <div class="answer-container__border">
+            <p><%= "#{@problem_number}問目"%></p>
+            <div class="answer-container__border__box">
+                <p><%= @word.word_en%></p>
+                <div class="answer-container__border__box__answer">
+                    <p><%= @word.word_jp%></p>
+                </div>
+            </div>
+            <div class="answer-container__border__btn">
+                <a href="<%= "/test/result/correct/#{@level}/#{@word.word_id}"%>">
+                    <input type="image" src="/OK.png">
+                </a>
+                <a href="<%="/test/result/incorrect/#{@level}/#{@word.word_id}"%>">
+                    <input type="image" src="/notOK.png">
+                </a>
+
+            </div>
+        </div>
+    </div>
+</main>

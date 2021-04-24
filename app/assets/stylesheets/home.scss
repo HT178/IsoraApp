@@ -1,0 +1,352 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+//
+// login画面に関するcss
+//
+*{
+    margin:0;
+    padding:0;
+}
+
+.header__login{
+    background-color:black;
+    height: 2000px;
+}
+
+.header__login--title{
+    // font-family:"Heart To Diamond Font";
+    // text-align:center;
+    // color:white;
+    // font-size:80px;
+    // width:60%;
+    // margin: 0 auto;
+    text-align: center;
+    color: white;
+    margin-right: 100px;
+    margin-left: 100px;
+    height: 180px;
+}
+
+.header__login--password{
+    height:50px;
+    font-size:30px;
+    margin: 0 auto;
+    background-color:#40323C;
+    color:white;
+    text-align:center;
+}
+
+.header__submit-btn{
+    height:50px;
+    font-size:30px;
+    margin: 0 auto;
+    background-color:#40323C;
+    color:white;
+    text-align:center;
+}
+
+.header__login--flame1{
+    width: 200px;
+    padding:60px 0 0 60px;
+    float:left;
+}
+
+.header__login--flame2{
+    width: 200px;
+    padding:65px 0 0 450px;
+}
+
+
+
+.header__submit-btn{
+    width:200px;
+    height:72px;
+    margin:0 auto;
+}
+
+.header__submit-btn:hover{
+    opacity:0.6;
+}
+
+.header__title{
+    text-align: center;
+}
+
+.header__password{
+    text-align: center;
+    margin: 10%;
+}
+
+.header__submit{
+    text-align: center;
+}
+
+//
+// level選択画面に関するcss
+//
+
+
+.header__menu1{
+    background-color:#4E549C;
+    height:100px;
+    color:white;
+    padding:0px;
+    margin:0px;
+}
+
+.header__menu1-text{
+    font-family:"Heart To Diamond Font";
+    font-size:60px;
+    color:white;
+    padding:0;
+    margin:20px;
+    float:left;
+    line-height:100px;
+    height: 60px;
+}
+
+.header__menu1-link{
+    color:white;
+    float:right;
+    padding:20px;
+    margin-top:20px
+}
+
+.menu1__top{
+    position:relative;
+    height:240px;
+}
+
+.menu1__top-img{
+    width:800px;
+    position:absolute;
+    top:30px;
+    margin:0px 90px;
+}
+
+.menu1__top--title-block{
+    text-align: center;
+}
+
+.menu1__top-title{
+    font-family:"Heart To Diamond Font";
+    font-size:70px;
+    // border-bottom:4px solid #B4A37B;
+    color:black;
+    position:relative;
+    top:100px;
+    left:10px;
+    // width:280px;
+    height: 95px;
+    // margin: 0;
+}
+
+.select-big{
+    margin:0 90px;
+    width:880px;
+    height:60px;
+}
+
+.select-big__list{
+    list-style:none;
+    font-size:30px;
+    text-align: center;
+    font-family:"Meiryo UI";
+    width:200px;
+    height:60px;
+    background-color:#DBDEF1;
+    float:left;
+    color:black;
+    line-height:60px;
+}
+
+.select-big__text{
+    list-style:none;
+    font-size:30px;
+    text-align: center;
+    font-family:"Meiryo UI";
+    width:200px;
+    height:60px;
+    float:left;
+    background-color:#5B0CA5;
+    color:white;
+    line-height:60px;
+}
+
+.select-big__link{
+    display:block;
+}
+
+.select-big__link:visited{
+    color:black;
+}
+
+li :hover{
+    background-color:#E9EBF7;
+}
+
+
+.select-small{
+    position:relative;
+    top:60px;
+    left:100px;
+    width:880px;
+    height:600px;
+}
+
+.stage_element{
+    font-size:30px;
+    text-align: center;
+    font-family:"Meiryo UI";
+    width:350px;
+    height:60px;
+    float:left;
+    color:black;
+    line-height:60px;
+    margin:20px;
+    // text-decoration-skip-ink: none;
+}
+
+.complete{
+    background-color:#DBB9E9;
+}
+
+.incomplete{
+    background-color:#A9B0DF;
+}
+
+.select-small a:visited{
+    color:black;
+}
+
+.select-small a:hover{
+    background-color:#C2C7E8;
+}
+
+.footer__menu1 img{
+    width:980px;
+}
+
+.selet-small__text:hover{
+    background-color:#E7D0F0;
+}
+
+//
+// level別トップ画面に関するcss
+//
+
+.level-top{
+    background-color:#4E549C;
+    height:100px;
+    color:white;
+    padding:0px;
+    margin:0px;
+}
+
+.level-top__text{
+    font-family:"Heart To Diamond Font";
+    font-size:60px;
+    color:white;
+    padding:0;
+    margin-left:20px;
+    float:left;
+    line-height:100px;
+}
+
+.level-top__link{
+    color:white;
+    float:right;
+    padding:20px;
+    margin-top:20px
+}
+
+.level-top__link a{
+    color: white;
+}
+
+.container{
+    border:10px solid #B4A37B;
+    margin:30px 30px 0 30px;
+    background-color:black;
+    position:relative;
+}
+
+.container__border{
+    margin:25px 25px 30px 25px;
+    border:4px solid #B4A37B;
+}
+
+.container__test{
+    width:130px;
+    position:absolute;
+    left:60px;
+}
+
+.container__border p{
+    font-size:40px;
+    border-bottom:3px solid #B4A37B;
+    color:white;
+    margin-top:55px;
+    position:absolute;
+    left:320px;
+}
+
+.container__border__box{
+    margin:170px 70px 80px 70px;
+    border:4px solid #B4A37B;
+    height:170px;
+    background-color:white;
+}
+
+.container__border__box p{
+    font-size:45px;
+    border:none;
+    position:relative;
+    left:100px;
+    top:30px;
+    font-family:"Heart To Diamond Font";
+    color:#B4A37B;
+    margin:0;
+}
+
+// .container__border__box__score p{
+//     font-size:60px;
+//     border-bottom:4px dashed #B4A37B;
+//     position:relative;
+//     top:20px;
+//     font-family:"Arial";
+//     color:black;
+//     margin:0;
+//     width:75px;
+// }
+
+.container__border__box__score h1{
+    font-size: 60px;
+    color: black;
+    border-bottom:4px dashed #B4A37B;
+    width: 25%;
+    position: relative;
+    left: 260px;
+    top: 20px;
+}
+
+.container__border__box__score{
+    text-align: center;
+}
+
+.container__border__btn input{
+    margin: 0 auto;
+    padding:7px 0;
+    background-color: black;
+}
+
+.container__border__btn{
+    margin-bottom:60px;
+    text-align: center;
+}
+
+.container__border__btn input:hover{
+    opacity:0.6;
+}
