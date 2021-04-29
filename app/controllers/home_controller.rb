@@ -4,13 +4,19 @@ class HomeController < ApplicationController
 
   def login
     @user = User.find_by(password: params[:password])
+    session[:password] = params[:password]
     if @user
       session[:user_id] = @user.user_id
       redirect_to("/home/menu1")
     else
-      redirect_to("/")
-      flash[:notice] = "パスワードが間違っています"
+      redirect_to("/temporary")
+      # flash[:notice] = "パスワードが間違っています"
     end
+  end
+
+  def temporary
+    puts session[:password]
+    puts 'test'
   end
 
   def logout

@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   get 'test/problem'
   get '/' => "home#loginform"
+  get '/temporary' => 'home#temporary'
   get 'home/menu1' => 'home#menu1'
   get 'home/menu2' => 'home#menu2'
   get 'home/menu3' => 'home#menu3'
